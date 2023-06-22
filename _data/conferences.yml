@@ -2,226 +2,80 @@
 # Systems
 #
 
-- name: MASCOTS
-  description: IEEE International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems
-  place: Virtual
-  year: 2021
-  date: November 3-5
-  link: http://mascots.iitis.pl/
-  deadline: "2021-07-15 23:59"
-  tags: [OS, ARCH, PL, NET, MEAS]
-
-- name: HiPC
-  description: IEEE International Conference on High Performance Computing, Data, and Analytics
-  place: Bangalore, India
-  year: 2022
-  date: December 17-20
-  deadline: "2021-07-16 23:59"
-  link: https://hipc.org/call-for-papers/
-  tags: [PAR]
+- name: DAC
+  description: Design Automation Conference
+  place: San Francisco, California, United States
+  year: 2024
+  date: Jul
+  link: https://www.dac.com/
+  deadline: "2023-11-14 23:59"
+  tags: [ARCH, EMB, NET, COMP, MEAS, AI]
 
 - name: ASPLOS
   description: International Conference on Architectural Support for Programming Languages and Operating Systems
-  year: 2022
-  date: "February 28 - March 4"
-  comment: Abstract registration August 6
-  link: https://asplos-conference.org/
-  deadline: "2021-08-13 23:59"
-  place: Lausanne, Switzerland
+  place: California, US
+  year: 2024
+  date: April
+  comment: Three submission, spring, summer, fall. full submission is a week later from the DDLs
+  deadline: 
+    - "2023-08-03 23:59"
+    - "2023-11-23 23:59"
+  link: https://www.asplos-conference.org/asplos2024/cfp/
   tags: [OS, ARCH, PL]
-
-- name: LLVM-HPC
-  description: Workshop on the LLVM Compiler Infrastructure in HPC
-  year: 2021
-  date: "November 14"
-  link: https://llvm-hpc-2021-workshop.github.io/
-  deadline: "2021-08-20 23:59"
-  place: St. Louis, MO, USA
-  tags: [OS, PL, COMP]
-
-- name: ROSS
-  description: International Workshop on Runtime and Operating Systems for Supercomputers
-  year: 2021
-  comment: co-located with SC21
-  date: November 15
-  deadline: "2021-08-23 23:59"
-  place: St. Louis, MO, USA
-  link: https://www.mcs.anl.gov/events/workshops/ross/2021/
-  tags: [OS, PAR]
-
-- name: MCHPC
-  description: Workshop on Memory Centric High-Performance Computing
-  year: 2021
-  comment: co-located with SC21
-  date: November 14
-  deadline: "2021-08-31 23:59"
-  place: St. Louis, MO, USA
-  link: https://passlab.github.io/mchpc/mchpc2021/
-  tags: [OS, PAR, ARCH]
-
-- name: SIGMETRICS
-  description: ACM SIGMETRICS/Performance
-  date: June 6-10
-  year: 2022
-  place: Mubai, India
-  timezone: Etc/GMT+5
-  deadline: 
-    - "2021-08-04 11:59"
-    - "2021-10-20 11:59"
-    - "2022-02-02 11:59"
-  comment: three deadlines, summer, fall winter. Abstract deadlines one week before.
-  link: https://www.sigmetrics.org/sigmetrics2022/call_for_papers.html
-  tags: [MEAS]
-
-- name: NSDI
-  description: USENIX Symposium on Networked Systems Design and Implementation
-  year: 2022
-  date: April 4-6
-  comment: two deadlines; first abstract deadline March 4, second is Sep 9
-  link: https://www.usenix.org/conference/nsdi22/call-for-papers
-  timezone: Etc/GMT+8
-  deadline: 
-    - "2021-03-10 20:59"
-    - "2021-09-15 20:59"
-  place: Renton, Washington, USA
-  tags: [NET]
-
-- name: EuroSys
-  description: The European Conference on Computer Systems
-  comment: Abstracts due Oct. 1
-  year: 2022
-  date: April 5-8
-  place: Rennes, France
-  deadline: "2021-10-09 23:59"
-  link: https://2022.eurosys.org/
-  timezone: Etc/UTC
-  tags: [OS, DIS]
-
-- name: FAST
-  description: USENIX Conference on File and Storage Technologies 
-  year: 2022
-  date: February 21-24
-  timezone: Etc/GMT+8
-  link: https://www.usenix.org/conference/fast22/call-for-papers
-  deadline: "2021-09-23 23:59"
-  place: Santa Clara, California, USA
-  tags: [OS, STOR]
-
-- name: ICPE
-  deadline: "2021-10-07 23:59"
-  description: ACM/SPEC International Conference on Performance Engineering
-  comment: abstract deadline September 30
-  year: 2022
-  place: Beijing, China
-  date: April 9-13
-  link: https://icpe2022.spec.org/
-  tags: [PAR, MEAS]
-
-- name: IPDPS
-  description: IEEE International Parallel and Distributed Processing Symposium
-  comment: abstract deadline October 1
-  year: 2022
-  date: May 30 - June 3
-  deadline: "2021-10-08 23:59"
-  place: Lyon, France
-  link: https://www.ipdps.org/
-  tags: [PAR]
 
 - name: ISCA
   description: International Symposium on Computer Architecture
-  comment: abstracts November 16
-  year: 2022
-  date: June 11-15
-  deadline: "2021-11-23 23:59"
-  place: New York City, NY, USA
-  link: https://iscaconf.org/isca2022/
+  year: 2024
+  date: June
+  comment: Not Yet call for paper 2024
+  link: https://iscaconf.org/isca2023/
+  deadline: "2023-11-14 23:59"
+  place: Not Yet
   tags: [ARCH]
 
-- name: CCGrid
-  description: The 22nd IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing
-  deadline: "2021-12-01 23:59"
-  comment: Abstracts due on November 24
-  year: 2022
-  date: May 16-19
-  place: Taormina (Messina), Italy
-  link: https://fcrlab.unime.it/ccgrid22/
-  tags: [PAR]
+- name: EuroSys
+  description: The European Conference on Computer Systems
+  year: 2024
+  date: April 22
+  comment: fall DDL is available only
+  link: https://2024.eurosys.org/
+  deadline: "2021-10-19 23:59"
+  place: ATHENS
+  tags: [OS, DIS]
 
-- name: OSDI 
-  description: USENIX Symposium on Operating Systems Design and Implementation
-  comment: abstract deadline December 7
-  year: 2022
-  date: July 11-13
-  deadline: "2021-12-14 23:59"
-  place: Carlsbad, CA, USA
-  link: https://www.usenix.org/conference/osdi22
-  tags: [OS]
-
-- name: ATC
-  description: USENIX Annual Technical Conference
-  comment: abstract deadline January 6 (co-located with OSDI)
-  year: 2022
-  date: July 11-13
-  timezone: Etc/UTC
-  deadline: "2022-01-6 23:59"
-  place: Carlsbad, CA, USA
-  link: https://www.usenix.org/conference/atc22
-  tags: [OS]
-
-- name: ICDCS
-  description: 42th IEEE International Conference on Distributed Computing Systems
-  comment: abstract deadilne Jan 17
-  year: 2022
-  date: July 10-13
-  timezone: Etc/GMT+5
-  deadline: "2022-01-24 23:59"
-  place: Bologna, Italy
-  link: https://icdcs2022.icdcs.org/
-  tags: [CLOUD, OS, DIS]
+- name: DATE
+  description: Design, Automation & Test in Europe
+  year: 2024
+  comment:  two dealines, abstract and full paper
+  date: 25, March
+  deadline: 
+    - "2023-09-10 23:59"
+    - "2023-09-17 23:59"
+  place: Palacio de Congresos, Valencia, Spain
+  link: https://www.date-conference.com/date-2024-call-papers
+  tags: [EMB, AI, ARCH, DIS]
 
 - name: HPDC
-  description: The 31st International ACM Symposium on High-Performance Parallel and Distributed Computing
-  comment: abstract deadline January 20
-  year: 2022
-  date: June 27-July 1
-  deadline: "2022-01-27 23:59"
-  place: Minneapolis, MN, USA
-  link: http://www.hpdc.org/2022/papers/call-for-papers/
+  description: International ACM Symposium on High-Performance Parallel and Distributed Computing
+  year: 2024
+  comment: Not yet call for papers 2024
+  date: Jul
+  deadline: "2024-01-27 23:59"
+  place: Not Yet
+  link: https://www.hpdc.org/2023/papers/call-for-papers/
   tags: [HPC]
 
-
-- name: SIGCOMM
-  description: ACM SIGCOMM
-  comment: abstract deadline January 26
-  year: 2022
-  date: August 22-26
-  timezone: Etc/UTC
-  deadline: "2022-02-02 23:59"
-  place: Amsterdam, the Netherlands
-  link: https://conferences.sigcomm.org/sigcomm/2022/
-  tags: [NET]
-
-- name: SC
-  description: supercomputing
-  comment: abstract deadline March 25
-  year: 2022
-  date: November 13-18
-  deadline: "2022-04-01 23:59"
-  place: Dallas, TX, USA
-  link: https://sc22.supercomputing.org/all-dates-deadlines/
-  tags: [HPC]
-
-- name: ICPP 
-  description: The 51st International Conference on Parallel Processing
-  comment: abstracts due April 8
-  year: 2022
-  date: August 29-September 1
-  deadline: "2022-04-14 23:59"
-  place: Bordeaux, France
-  link: https://icpp22.gitlabpages.inria.fr/
-  tags: [HPC]
-
-
+- name: HiPC
+  description: IEEE International Conference on High Performance Computing, Data, and Analytics
+  date: 22, September
+  year: 2023
+  place: Goa, India
+  deadline: 
+    - "2023-06-30 23:59"
+    - "2023-07-07 23:59"
+  comment:  two dealines, abstract and full paper
+  link: https://hipc.org/call-for-papers/
+  tags: [PAR]
 
 
 
